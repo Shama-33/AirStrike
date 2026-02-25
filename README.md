@@ -1,10 +1,10 @@
 # AirStrike Game
 
-A Battleship-style naval combat game built with Python and Pygame.
+A Battleship-style combat game built with Python and Pygame.
 
 ## 📋 Description
 
-AirStrike is a turn-based strategy game where players place ships on a grid and attempt to sink their opponent's fleet. The game features a graphical interface built with Pygame and includes ship placement, collision detection, and visual feedback.
+AirStrike is a turn-based strategy game where players place ships on a grid and attempt to sink their opponent's fleet. The game features a graphical interface built with Pygame and includes ship placement, collision detection, and visual feedback. This includes Game Theory concepts such as Min-Max Algorithm, Alpha-Beta Pruning, Fuzzy Logic, and other search techniques - each corresponds to different modes of the game.
 
 ## 🎮 Features
 
