@@ -53,9 +53,11 @@ python AirStrike_GUI.py
 
 ```
 AirStrike/
-├── AirStrike_Engine.py    # Game logic and ship placement
-├── AirStrike_GUI.py        # Pygame graphical interface
-└── README.md               # This file
+├── main/
+│   ├── AirStrike_Engine.py    # Game logic and ship placement
+│   └── AirStrike_GUI.py        # Pygame graphical interface
+├── Report.pdf                  # Detailed Report
+└── README.md                   # This file
 ```
 
 ## 🏗️ Architecture
@@ -125,7 +127,6 @@ The game ensures valid ship placement through:
 3. **Collision Detection**: Ships cannot overlap with existing ships
 4. **Retry Mechanism**: Invalid placements trigger automatic repositioning
 
-## 🔮 Future Enhancements
 
 Current code provides the foundation for:
 - Attack functionality
